@@ -1,0 +1,16 @@
+# Python dependencies for the stock data pipeline
+# These are already included in the Apache Airflow Docker image
+# but listed here for documentation and potential standalone use
+
+# Core dependencies
+requests>=2.31.0
+psycopg2-binary>=2.9.9
+
+# Airflow is provided by the base image
+# apache-airflow==2.7.3
+
+# Data handling
+pandas>=2.1.0
+
+# Utilities
+python-dotenv>=1.0.0
